@@ -10,6 +10,10 @@ body {
 }
 
 .header {
+  width: 100%;
+}
+
+.header-container{
   max-width: 1200px;
   display: flex;
   align-items: center;
@@ -72,7 +76,8 @@ body {
 }
 
 @media (max-width: 1024px) {
-  header {
+  .header-container {
     max-width: 1024px;
   }
 }
+
