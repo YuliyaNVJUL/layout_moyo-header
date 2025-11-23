@@ -11,14 +11,15 @@ body {
 
 .header {
   width: 100%;
+  background-color: #fff;
 }
 
-.header-container{
+.header-container {
+  margin: 0 auto;
   max-width: 1200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
   padding: 0 50px;
 }
 
@@ -80,4 +81,3 @@ body {
     max-width: 1024px;
   }
 }
-
